@@ -103,6 +103,8 @@ console.log('The animals are now', animalArray);
 
 // NOTE: Use the `colors` array for 4.c and 4.d.
 let colors = ['orange', 'yellow', 'green', 'teal'];
+console.log(colors);
+
 
 // 4.c. TODO: The last value inside the `colors` array was added by mistake.
 //      Remove it from the array and store it inside a new variable called
@@ -110,6 +112,10 @@ let colors = ['orange', 'yellow', 'green', 'teal'];
 //      Don't forget! Use console.log to verify that the `colors`
 //      array only contains three items now, AND to verify that `lastColor`
 //      contains the value "teal".)
+let lastColor = colors.pop();
+console.log('The last color of colors was ', lastColor);
+console.log('the colrs array is now: ', colors);
+
 
 
 // Example: Remove the first animal using the Array.shift method.
