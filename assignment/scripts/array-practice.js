@@ -127,6 +127,8 @@ console.log('The animals are now', animalArray);
 //      inside a new variable called `firstColor`.
 //      To verify that your code worked, console.log `firstColor`!  
 
+let firstColor = colors.shift();
+console.log('the first color of the colors array is ', firstColor);
 
 
 
